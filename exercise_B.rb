@@ -93,5 +93,18 @@ p users["Erik"][:pets]
 # Add another person to the users hash
 users["Joanna"] = {
   twitter: "jw75",
-  
+  lottery_numbers: [1, 2, 3, 4, 5, 6],
+  home_town: "Dundee",
+  pets: [
+    {
+      name: "Merlin",
+      species: "hamster"
+    },
+    {
+      name: "Hamish",
+      species: "dog"
+    }
+  ]
 }
+
+p users["Joanna"]
