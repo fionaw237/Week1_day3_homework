@@ -38,9 +38,15 @@ p "There are #{stops.length()} stops in the array"
 p stops[stops.index("Falkirk High")]
 p stops[2]
 
+for stop in stops
+  if (stop == "Falkirk High")
+    p stop
+  end
+end
+
 # Reverse the positions of the stops in the array
 #stops.reverse!
-p stops.reverse
+p stops.reverse()
 
 # Print out all the stops using a for loop
 for stop in stops

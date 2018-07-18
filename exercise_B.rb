@@ -108,3 +108,4 @@ users["Joanna"] = {
 }
 
 p users["Joanna"]
+p users
