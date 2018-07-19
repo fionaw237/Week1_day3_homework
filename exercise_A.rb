@@ -7,6 +7,7 @@ p stops
 #
 # Add "Edinburgh Waverley" to the end of the array
 stops.push("Edinburgh Waverley")
+#stops << "Edinburgh Waverley"
 p stops
 
 # Add "Glasgow Queen St" to the start of the array
@@ -33,6 +34,8 @@ p stops
 
 # How many stops there are in the array?
 p "There are #{stops.length()} stops in the array"
+#stops.count()
+#
 
 # How many ways can we return "Falkirk High" from the array?
 p stops[stops.index("Falkirk High")]
@@ -43,6 +46,16 @@ for stop in stops
     p stop
   end
 end
+
+stops.each do |stop|
+  if (stop == "Falkirk High")
+    p stop
+  end
+end
+
+#stops.fetch(2)
+#stops.at(2)
+#stops.select ?
 
 # Reverse the positions of the stops in the array
 #stops.reverse!
